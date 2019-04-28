@@ -50,6 +50,56 @@ MonoBehaviour:
   - {fileID: 2959118344958445318}
   - {fileID: 946338275024656623}
   - {fileID: 7605737710245982038}
+  gameMenuOpen: 0
+  dialogActive: 0
+  fadingBetweenAreas: 0
+  shopActive: 0
+  itemsHeld:
+  - 
+  - Leather Armor
+  - 
+  - 
+  - Health Potion
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Iron Sword
+  - 
+  - 
+  - Mana Potion
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  numerOfItems: 000000000100000000000000000000000500000000000000000000000000000000000000000000000100000000000000000000000300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  referenceItems:
+  - {fileID: 4778487719324268256, guid: e7b08f2e47d46d54c9d58f839923d18b, type: 3}
+  - {fileID: 6535122416099860318, guid: ad5f2542acae30d4dbf1fe7df120fd47, type: 3}
+  - {fileID: 3160193824295779197, guid: 8631ecf7ee3d8004a93f3922c45fc510, type: 3}
+  - {fileID: 2967169515299600149, guid: 6ab4e56794bb42e4884c0ff91856a1cb, type: 3}
+  - {fileID: 7675157134920766265, guid: dc21fd04b9f0fd8498c3d5997ef8f617, type: 3}
+  - {fileID: 328026210448282683, guid: 73fdc113737dc6f4ab116011d5d09c01, type: 3}
+  currentGold: 100
 --- !u!1 &2959118344958445313
 GameObject:
   m_ObjectHideFlags: 0
