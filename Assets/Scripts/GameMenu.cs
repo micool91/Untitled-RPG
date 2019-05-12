@@ -49,7 +49,7 @@ public class GameMenu : MonoBehaviour
     {
         if(Input.GetButtonDown("Fire2"))
         {
-            if(theMenu.activeInHierarchy)
+            if (theMenu.activeInHierarchy)
             {
                 //theMenu.SetActive(false);
                 //GameManager.instance.gameMenuOpen = false;
@@ -62,8 +62,8 @@ public class GameMenu : MonoBehaviour
                 UpdateMainStats();
                 GameManager.instance.gameMenuOpen = true;
             }
+            AudioManager.instance.PlaySFX(5);
         }
-        
     }
 
     public void UpdateMainStats()
@@ -230,5 +230,16 @@ public class GameMenu : MonoBehaviour
     {
         activeItem.Use(selectChar);
         CloseItemCharChoice();
+    }
+
+    public void SaveGame()
+    {
+        GameManager.instance.SaveData();
+        QuestManager.instance.SaveQuestData();
+    }
+
+    public void PlayButtonSound()
+    {
+        AudioManager.instance.PlaySFX(4);
     }
 }
