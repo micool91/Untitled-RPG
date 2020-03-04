@@ -287,7 +287,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fa413d9104fdc24f9a882759a489ff1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  charName: Willy
+  charName: Ralph
   playerLevel: 3
   currentEXP: 543
   expToNextLevel: 
