@@ -21,6 +21,9 @@ EditorBuildSettings:
     path: Assets/Scenes/CountrysideArea.unity
     guid: 7844315cc3b1a704897378363122fad2
   - enabled: 1
+    path: Assets/Scenes/Dungeon.unity
+    guid: 22ca0366d8d87b142a42e0934fa2c24a
+  - enabled: 1
     path: Assets/Scenes/Shop.unity
     guid: af5467013dc1b4e4983970860f764227
   - enabled: 1
