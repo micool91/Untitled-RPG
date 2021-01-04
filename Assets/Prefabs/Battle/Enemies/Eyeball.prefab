@@ -93,7 +93,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer: 0
-  movesAvailable: []
+  movesAvailable:
+  - Fire
+  - Ice
   charName: Eyeball
   currentHP: 150
   maxHp: 250
@@ -104,3 +106,7 @@ MonoBehaviour:
   wpnPower: 5
   armrPower: 5
   hasDied: 0
+  theSprite: {fileID: 2992944727578472442}
+  deadSprite: {fileID: 0}
+  aliveSprite: {fileID: 0}
+  fadeSpeed: 1

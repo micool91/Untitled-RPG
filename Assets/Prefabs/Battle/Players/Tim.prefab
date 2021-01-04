@@ -92,8 +92,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e965ec45f624441409a0d3c65b2f4aac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isPlayer: 0
-  movesAvailable: []
+  isPlayer: 1
+  movesAvailable:
+  - Fire
+  - Ice
   charName: Tim
   currentHP: 0
   maxHp: 0
@@ -104,3 +106,6 @@ MonoBehaviour:
   wpnPower: 0
   armrPower: 0
   hasDied: 0
+  theSprite: {fileID: 126669677793771608}
+  deadSprite: {fileID: 21300098, guid: 5ad3318be1578da4da6d560017a409da, type: 3}
+  aliveSprite: {fileID: 21300068, guid: 5ad3318be1578da4da6d560017a409da, type: 3}

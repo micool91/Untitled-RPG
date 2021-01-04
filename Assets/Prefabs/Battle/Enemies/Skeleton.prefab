@@ -66,8 +66,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 685757687
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300014, guid: 988d560df8d322a468c97243cbfd76e8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -93,7 +93,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer: 0
-  movesAvailable: []
+  movesAvailable:
+  - Slash
+  - Plasma
   charName: Skeleton
   currentHP: 150
   maxHp: 250
@@ -104,3 +106,7 @@ MonoBehaviour:
   wpnPower: 5
   armrPower: 5
   hasDied: 0
+  theSprite: {fileID: 3817541263544349407}
+  deadSprite: {fileID: 0}
+  aliveSprite: {fileID: 0}
+  fadeSpeed: 1
