@@ -9,6 +9,7 @@ public class EssentailsLoader : MonoBehaviour
     public GameObject player;
     public GameObject gameMan;
     public GameObject audioMan;
+    public GameObject battleMan;
 
     // Start is called before the first frame update
     void Start()
@@ -26,12 +27,17 @@ public class EssentailsLoader : MonoBehaviour
 
         if(GameManager.instance == null)
         {
-            Instantiate(gameMan);
+            GameManager.instance = Instantiate(gameMan).GetComponent<GameManager>();
         }
 
         if(AudioManager.instance == null)
         {
-            Instantiate(audioMan);
+            AudioManager.instance = Instantiate(audioMan).GetComponent<AudioManager>();
+        }
+        
+        if(BattleManager.instance = null)
+        {
+            BattleManager.instance = Instantiate(battleMan).GetComponent<BattleManager>();
         }
     }
 

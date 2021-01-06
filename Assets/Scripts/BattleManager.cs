@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class BattleManager: MonoBehaviour
 {
@@ -40,6 +41,12 @@ public class BattleManager: MonoBehaviour
     public BattleNotification battleNotice;
 
     public int chanceToFlee = 35;
+    private bool fleeing;
+
+    public string gameOverScene;
+
+    public int rewardXP;
+    public string[] rewardItems;
 
 
     // Start is called before the first frame update
@@ -200,6 +207,7 @@ public class BattleManager: MonoBehaviour
             } else
             {
                 //end battle in failure
+                StartCoroutine(GameOverCo());
             }
 
             /*battleScene.SetActive(false);
@@ -389,6 +397,7 @@ public class BattleManager: MonoBehaviour
             //battleActive = false;
             //battleScene.SetActive(false);
             //GameManager.instance.battleActive = false;
+            fleeing = true;
             StartCoroutine(EndBattleCo());
         } else
         {
@@ -432,8 +441,27 @@ public class BattleManager: MonoBehaviour
         battleScene.SetActive(false);
         activeBattlers.Clear();
         currentTurn = 0;
-        GameManager.instance.battleActive = false;
+        //GameManager.instance.battleActive = false;
+        if (fleeing)
+        {
+            GameManager.instance.battleActive = false;
+            fleeing = false;
+        } else
+        {
+            //open reward screen
+            BattleReward.instance.OpenRewardScreen(rewardXP, rewardItems);
+        }
 
         AudioManager.instance.PlayBGM(FindObjectOfType<CameraController>().musicToPlay);
+    }
+
+    public IEnumerator GameOverCo()
+    {
+        battleActive = false;
+        UIFade.instance.FadeToBlack();
+
+        yield return new WaitForSeconds(1.5f);
+        battleScene.SetActive(false);
+        SceneManager.LoadScene(gameOverScene);
     }
 }
