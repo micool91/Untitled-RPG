@@ -71,9 +71,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27e9790d9dd52d54a80b560b51ccaf59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  areaToLoad: Test2
-  areaTransitionName: 
+  areaToLoad: Dungeon
+  areaTransitionName: 1-3
   theEntrance: {fileID: 4662674562204857255}
+  waitToLoad: 1
 --- !u!1001 &355024063325492951
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -84,17 +85,22 @@ PrefabInstance:
     - target: {fileID: 5943210307267157674, guid: 051dd6ef807b21a499ace103056e5e82,
         type: 3}
       propertyPath: m_Name
-      value: AreaEntrance
+      value: AreaEntranceFromDungeon
+      objectReference: {fileID: 0}
+    - target: {fileID: 4924801977772352880, guid: 051dd6ef807b21a499ace103056e5e82,
+        type: 3}
+      propertyPath: transitionName
+      value: 1-3
       objectReference: {fileID: 0}
     - target: {fileID: 8281266798458232681, guid: 051dd6ef807b21a499ace103056e5e82,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.68
+      value: -0.42
       objectReference: {fileID: 0}
     - target: {fileID: 8281266798458232681, guid: 051dd6ef807b21a499ace103056e5e82,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.68
+      value: -2.01
       objectReference: {fileID: 0}
     - target: {fileID: 8281266798458232681, guid: 051dd6ef807b21a499ace103056e5e82,
         type: 3}

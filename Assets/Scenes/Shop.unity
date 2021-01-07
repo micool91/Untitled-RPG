@@ -407,6 +407,11 @@ PrefabInstance:
       propertyPath: areaTransitionName
       value: 1-Shop
       objectReference: {fileID: 0}
+    - target: {fileID: 6239678769542596733, guid: 9463d97a991b0e84d89a13876e4f0414,
+        type: 3}
+      propertyPath: m_Name
+      value: AreaEntranceFromTown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9463d97a991b0e84d89a13876e4f0414, type: 3}
 --- !u!1 &587856263

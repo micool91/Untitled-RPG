@@ -7031,6 +7031,7 @@ MonoBehaviour:
   - {fileID: 2243342068045208124, guid: 0b4b505eb79b40a4ca0e9e771411e17d, type: 3}
   - {fileID: 7431567949920870646, guid: b6083a20e3262d64aab1aeadb7767df2, type: 3}
   - {fileID: 2696872625230511452, guid: 8bd7d09e25bc2a949a236e8d2c01a1c3, type: 3}
+  - {fileID: 8678482412026715705, guid: 799cb0fad0a63574da163f7cb9a24ea2, type: 3}
   activeBattlers: []
   currentTurn: 0
   turnWaiting: 0

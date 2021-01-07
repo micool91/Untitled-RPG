@@ -6600,6 +6600,21 @@ PrefabInstance:
       propertyPath: transitionName
       value: 1-1
       objectReference: {fileID: 0}
+    - target: {fileID: 7356732018561291201, guid: 9463d97a991b0e84d89a13876e4f0414,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.26062107
+      objectReference: {fileID: 0}
+    - target: {fileID: 7356732018561291201, guid: 9463d97a991b0e84d89a13876e4f0414,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 3.7027187
+      objectReference: {fileID: 0}
+    - target: {fileID: 6239678769542596733, guid: 9463d97a991b0e84d89a13876e4f0414,
+        type: 3}
+      propertyPath: m_Name
+      value: AreaEntranceFromCountryside
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9463d97a991b0e84d89a13876e4f0414, type: 3}
 --- !u!1 &1427206444

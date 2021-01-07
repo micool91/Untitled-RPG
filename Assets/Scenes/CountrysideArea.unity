@@ -179,36 +179,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6029776272456472238, guid: 9463d97a991b0e84d89a13876e4f0414,
-        type: 3}
-      propertyPath: areaToLoad
-      value: Dungeon
-      objectReference: {fileID: 0}
-    - target: {fileID: 6029776272456472238, guid: 9463d97a991b0e84d89a13876e4f0414,
-        type: 3}
-      propertyPath: areaTransitionName
-      value: 1-3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4662674562204857255, guid: 9463d97a991b0e84d89a13876e4f0414,
-        type: 3}
-      propertyPath: transitionName
-      value: 1-3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8503276341891533246, guid: 9463d97a991b0e84d89a13876e4f0414,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.42
-      objectReference: {fileID: 0}
-    - target: {fileID: 8503276341891533246, guid: 9463d97a991b0e84d89a13876e4f0414,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -2.01
-      objectReference: {fileID: 0}
-    - target: {fileID: 6239678769542596733, guid: 9463d97a991b0e84d89a13876e4f0414,
-        type: 3}
-      propertyPath: m_Name
-      value: AreaEntranceFromDungeon
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9463d97a991b0e84d89a13876e4f0414, type: 3}
 --- !u!1001 &613600647
@@ -333,7 +303,7 @@ Transform:
   - {fileID: 1824439110}
   - {fileID: 1995398546}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1627025621
 PrefabInstance:
@@ -402,6 +372,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8503276341891533246, guid: 9463d97a991b0e84d89a13876e4f0414,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8503276341891533246, guid: 9463d97a991b0e84d89a13876e4f0414,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.69
+      objectReference: {fileID: 0}
     - target: {fileID: 6029776272456472238, guid: 9463d97a991b0e84d89a13876e4f0414,
         type: 3}
       propertyPath: areaToLoad
@@ -417,15 +397,10 @@ PrefabInstance:
       propertyPath: transitionName
       value: 1-1
       objectReference: {fileID: 0}
-    - target: {fileID: 8503276341891533246, guid: 9463d97a991b0e84d89a13876e4f0414,
+    - target: {fileID: 6239678769542596733, guid: 9463d97a991b0e84d89a13876e4f0414,
         type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -2.14
-      objectReference: {fileID: 0}
-    - target: {fileID: 8503276341891533246, guid: 9463d97a991b0e84d89a13876e4f0414,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.28
+      propertyPath: m_Name
+      value: AreaEntranceFromTown
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9463d97a991b0e84d89a13876e4f0414, type: 3}
