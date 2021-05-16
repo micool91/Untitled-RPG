@@ -1,19 +1,39 @@
 fileFormatVersion: 2
 guid: 988d560df8d322a468c97243cbfd76e8
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: rpgcritters2 - Stephen 'Redshrike' Challener, hosted by OpenGameArt.org_0
-    21300002: rpgcritters2 - Stephen 'Redshrike' Challener, hosted by OpenGameArt.org_1
-    21300004: rpgcritters2 - Stephen 'Redshrike' Challener, hosted by OpenGameArt.org_2
-    21300006: rpgcritters2 - Stephen 'Redshrike' Challener, hosted by OpenGameArt.org_3
-    21300008: rpgcritters2 - Stephen 'Redshrike' Challener, hosted by OpenGameArt.org_4
-    21300010: rpgcritters2 - Stephen 'Redshrike' Challener, hosted by OpenGameArt.org_5
-    21300012: rpgcritters2 - Stephen 'Redshrike' Challener, hosted by OpenGameArt.org_6
-    21300014: rpgcritters2 - Stephen 'Redshrike' Challener, hosted by OpenGameArt.org_7
-    21300016: rpgcritters2 - Stephen 'Redshrike' Challener, hosted by OpenGameArt.org_8
-    21300018: rpgcritters2 - Stephen 'Redshrike' Challener, hosted by OpenGameArt.org_9
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: rpgcritters2 - Stephen 'Redshrike' Challener, hosted by OpenGameArt.org_0
+  - first:
+      213: 21300002
+    second: rpgcritters2 - Stephen 'Redshrike' Challener, hosted by OpenGameArt.org_1
+  - first:
+      213: 21300004
+    second: rpgcritters2 - Stephen 'Redshrike' Challener, hosted by OpenGameArt.org_2
+  - first:
+      213: 21300006
+    second: rpgcritters2 - Stephen 'Redshrike' Challener, hosted by OpenGameArt.org_3
+  - first:
+      213: 21300008
+    second: rpgcritters2 - Stephen 'Redshrike' Challener, hosted by OpenGameArt.org_4
+  - first:
+      213: 21300010
+    second: rpgcritters2 - Stephen 'Redshrike' Challener, hosted by OpenGameArt.org_5
+  - first:
+      213: 21300012
+    second: rpgcritters2 - Stephen 'Redshrike' Challener, hosted by OpenGameArt.org_6
+  - first:
+      213: 21300014
+    second: rpgcritters2 - Stephen 'Redshrike' Challener, hosted by OpenGameArt.org_7
+  - first:
+      213: 21300016
+    second: rpgcritters2 - Stephen 'Redshrike' Challener, hosted by OpenGameArt.org_8
+  - first:
+      213: 21300018
+    second: rpgcritters2 - Stephen 'Redshrike' Challener, hosted by OpenGameArt.org_9
   externalObjects: {}
-  serializedVersion: 6
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -33,6 +53,7 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -42,8 +63,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -64,11 +85,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 256
     resizeAlgorithm: 0
@@ -79,7 +104,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 256
     resizeAlgorithm: 0
@@ -90,6 +116,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -109,6 +136,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 5f07c822436846f4dbffb185d11d6276
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
@@ -129,6 +157,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 852775177e9040d4eb9f1686ddeef8d6
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
@@ -149,6 +178,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 4075635582a1e364bb1e80e8dc9e913a
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
@@ -169,6 +199,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 55defdf4b81771940972305b473abbbd
+      internalID: 21300006
       vertices: []
       indices: 
       edges: []
@@ -189,6 +220,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 5cf827ff8876ec24baf8ff61d34930c7
+      internalID: 21300008
       vertices: []
       indices: 
       edges: []
@@ -209,6 +241,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 85782a1076777af4ca76b2efcbe99b35
+      internalID: 21300010
       vertices: []
       indices: 
       edges: []
@@ -229,6 +262,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: b0afec906a7c0204ebf873be7a78d22d
+      internalID: 21300012
       vertices: []
       indices: 
       edges: []
@@ -249,6 +283,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 5d238c6609211de4eaf45ae0f41d26cf
+      internalID: 21300014
       vertices: []
       indices: 
       edges: []
@@ -269,6 +304,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 254f2d2046a138b4989543fa88d97a50
+      internalID: 21300016
       vertices: []
       indices: 
       edges: []
@@ -289,6 +325,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 45c43edec89254845bb322fef8d90e37
+      internalID: 21300018
       vertices: []
       indices: 
       edges: []
@@ -297,11 +334,15 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: c9562d249a299e844bc0ab7d4101464c
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
