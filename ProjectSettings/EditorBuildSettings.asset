@@ -24,6 +24,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Dungeon.unity
     guid: 22ca0366d8d87b142a42e0934fa2c24a
   - enabled: 1
+    path: Assets/Scenes/SceneForDialogs.unity
+    guid: 33534227e6675a84999d0bb0ff0cd364
+  - enabled: 1
     path: Assets/Scenes/Shop.unity
     guid: af5467013dc1b4e4983970860f764227
   - enabled: 1
