@@ -13,18 +13,4 @@ MonoBehaviour:
   m_Name: New Dialogue
   m_EditorClassIdentifier: 
   nodes:
-  - uniqueID: 
-    text: hello
-    children: []
-  - uniqueID: 
-    text: da
-    children: []
-  - uniqueID: 
-    text: asdads
-    children: []
-  - uniqueID: 
-    text: asd
-    children: []
-  - uniqueID: 
-    text: a
-    children: []
+  - {fileID: 0}
