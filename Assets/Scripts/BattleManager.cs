@@ -152,6 +152,11 @@ public class BattleManager: MonoBehaviour
         }
     }
 
+    public void SingleBattleStart(string enemyToSpawn)
+    {
+        BattleStart(new [] {enemyToSpawn}, false);
+    }
+
     public void NextTurn()
     {
         currentTurn++;
