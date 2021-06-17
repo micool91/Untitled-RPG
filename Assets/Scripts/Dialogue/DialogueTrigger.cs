@@ -12,8 +12,10 @@ namespace RPG.Dialogue
 
         public void Trigger(string actionToTrigger)
         {
+            //Debug.Log($"{name} is testing trigger {actionToTrigger}.  This trigger = {action}.");
             if (actionToTrigger == action)
             {
+                //Debug.Log($"{actionToTrigger}=={action}.   Condition matches");
                 onTrigger.Invoke();
                 Debug.Log(action);
             }

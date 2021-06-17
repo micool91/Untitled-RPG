@@ -154,6 +154,7 @@ public class BattleManager: MonoBehaviour
 
     public void SingleBattleStart(string enemyToSpawn)
     {
+        Debug.Log("Start bitwy");
         BattleStart(new [] {enemyToSpawn}, false);
     }
 

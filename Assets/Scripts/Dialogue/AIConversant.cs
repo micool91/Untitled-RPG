@@ -28,7 +28,7 @@ namespace RPG.Dialogue
                 {
                     //DialogManager.instance.ShowDialog(lines, isPerson);
                     //DialogManager.instance.ShouldActivateQuestAtEnd(questToMark, markComplete);
-                    Debug.Log("It speaks...");
+                    //Debug.Log("It speaks...");
                     canActiavate = false;
                     var pc = GameObject.
                         FindGameObjectWithTag("Player").
