@@ -46,7 +46,7 @@ MonoBehaviour:
     y: 145
     width: 200
     height: 100
-  onEnterAction: TestRootEntry
+  onEnterAction: 
   onExitAction: 
 --- !u!114 &-5844106469256878193
 MonoBehaviour:
@@ -115,7 +115,7 @@ MonoBehaviour:
   rect:
     serializedVersion: 2
     x: 1073
-    y: 38
+    y: 37
     width: 200
     height: 100
   onEnterAction: 
@@ -139,10 +139,10 @@ MonoBehaviour:
   rect:
     serializedVersion: 2
     x: 266
-    y: 34
+    y: 33
     width: 200
     height: 100
-  onEnterAction: TestSelection
+  onEnterAction: 
   onExitAction: 
 --- !u!114 &11400000
 MonoBehaviour:
@@ -264,7 +264,7 @@ MonoBehaviour:
     width: 200
     height: 100
   onEnterAction: 
-  onExitAction: Test AI exit action
+  onExitAction: 
 --- !u!114 &2386014083104993713
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -360,7 +360,7 @@ MonoBehaviour:
     width: 200
     height: 100
   onEnterAction: 
-  onExitAction: 
+  onExitAction: Test
 --- !u!114 &4665085526677209593
 MonoBehaviour:
   m_ObjectHideFlags: 0

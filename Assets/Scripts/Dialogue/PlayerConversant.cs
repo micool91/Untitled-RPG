@@ -110,6 +110,7 @@ namespace RPG.Dialogue
         {
             if (currentNode != null)
             {
+                //Debug.Log($"Triggering action {currentNode.GetOnEnterAction()}");
                 TriggerAction(currentNode.GetOnEnterAction());
             }
         }
@@ -118,16 +119,18 @@ namespace RPG.Dialogue
         {
             if (currentNode != null)
             {
+                //Debug.Log($"Triggering action {currentNode.GetOnExitAction()}");
                 TriggerAction(currentNode.GetOnExitAction());
             }
         }
 
         private void TriggerAction(string action)
         {
-            if (action != "") return;
+            if (action == "") return;
             
             foreach (DialogueTrigger trigger in currentConversant.GetComponents<DialogueTrigger>())
             {
+                //Debug.Log("Testing trigger");
                 trigger.Trigger(action);
             }
         }
