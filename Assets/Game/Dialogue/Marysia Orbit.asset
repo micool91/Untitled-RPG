@@ -1,0 +1,241 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5137376662651101353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e25623f517657e441b6d76e0916e2099, type: 3}
+  m_Name: f2e0f95d-6a0d-40ed-bc8c-03138b5ebd29
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: "Sk\u0105d mog\u0119 wiedzie\u0107 o takiej gumie skoro nigdy mi nie dali!
+    MY\u015AL MARYSIA, MY\u015AL!"
+  children:
+  - f7b9b40b-f18b-4a4e-83f7-f13ee4a29375
+  rect:
+    serializedVersion: 2
+    x: 347
+    y: 399
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-1985035830070979721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e25623f517657e441b6d76e0916e2099, type: 3}
+  m_Name: 141f918d-7653-4fc5-9e5f-8cadb2c1cbbb
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: N.. Nie wiem...
+  children:
+  - e17180eb-f3b1-40dd-9a2f-86fc929f1aae
+  rect:
+    serializedVersion: 2
+    x: 363
+    y: 293
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-419337930160242459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e25623f517657e441b6d76e0916e2099, type: 3}
+  m_Name: ad3c2a23-d45d-4069-99fd-48ba7d9c89c3
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "Czy lubi \u017Cu\u0107 gum\u0119 Turbo?"
+  children:
+  - 22a6d9a5-df9a-4a0a-9d86-bd184b733dba
+  - f2e0f95d-6a0d-40ed-bc8c-03138b5ebd29
+  - 141f918d-7653-4fc5-9e5f-8cadb2c1cbbb
+  rect:
+    serializedVersion: 2
+    x: 78
+    y: 214
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4de62547b861dae449858c7794d9910a, type: 3}
+  m_Name: Marysia Orbit
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 3137056045547126329}
+  - {fileID: 3954311845552172567}
+  - {fileID: -419337930160242459}
+  - {fileID: 8963413743661634281}
+  - {fileID: -5137376662651101353}
+  - {fileID: 2498152280511603729}
+  - {fileID: -1985035830070979721}
+  - {fileID: 6185236934008619702}
+  - {fileID: 4168924378449736491}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &2498152280511603729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e25623f517657e441b6d76e0916e2099, type: 3}
+  m_Name: 5b8a1b00-439d-49a8-ab14-49d2941c8bfe
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Okej
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 610
+    y: 172
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &3137056045547126329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e25623f517657e441b6d76e0916e2099, type: 3}
+  m_Name: d437274b-a302-433d-9574-7e3e2f11a690
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "A czy Papie\u017C... A czy Papie\u017C lubi gum\u0119 turbo... \u017Cu\u0107?"
+  children:
+  - 50766c4b-96c7-4d9d-a9e9-7ed4043fed91
+  rect:
+    serializedVersion: 2
+    x: 42
+    y: 59
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &3954311845552172567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e25623f517657e441b6d76e0916e2099, type: 3}
+  m_Name: 50766c4b-96c7-4d9d-a9e9-7ed4043fed91
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: "\u017Be co robi?"
+  children:
+  - ad3c2a23-d45d-4069-99fd-48ba7d9c89c3
+  rect:
+    serializedVersion: 2
+    x: 296
+    y: 67
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &4168924378449736491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e25623f517657e441b6d76e0916e2099, type: 3}
+  m_Name: f7b9b40b-f18b-4a4e-83f7-f13ee4a29375
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: He he he
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 597
+    y: 399
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: Attack
+--- !u!114 &6185236934008619702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e25623f517657e441b6d76e0916e2099, type: 3}
+  m_Name: e17180eb-f3b1-40dd-9a2f-86fc929f1aae
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: OK
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 613
+    y: 293
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &8963413743661634281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e25623f517657e441b6d76e0916e2099, type: 3}
+  m_Name: 22a6d9a5-df9a-4a0a-9d86-bd184b733dba
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Jeszcze i jak!
+  children:
+  - 5b8a1b00-439d-49a8-ab14-49d2941c8bfe
+  rect:
+    serializedVersion: 2
+    x: 363
+    y: 176
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
