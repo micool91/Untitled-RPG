@@ -59,6 +59,11 @@ public class BattleStarter : MonoBehaviour
         }
     }
 
+    public void StartujBitwe(){
+        Debug.Log("OJOJOJ");
+        StartCoroutine(StartBattleCo());
+    }
+
     private void OnTriggerExit2D(Collider2D other)
     {
         if (other.tag == "Player")
