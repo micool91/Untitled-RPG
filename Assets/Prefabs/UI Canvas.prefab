@@ -15719,11 +15719,8 @@ RectTransform:
   - {fileID: 63495914}
   - {fileID: 942441184}
   - {fileID: 502446220}
-<<<<<<< Updated upstream
-=======
   - {fileID: 2915635862947834821}
   - {fileID: 3696003651533706522}
->>>>>>> Stashed changes
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -47134,8 +47131,6 @@ MonoBehaviour:
   buttonImage: {fileID: 2865581855938048720}
   amountText: {fileID: 6999848032160237685}
   buttonValue: 0
-<<<<<<< Updated upstream
-=======
 --- !u!1001 &6122702682528670151
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49666,4 +49661,3 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 9220289155015664008}
   m_PrefabAsset: {fileID: 0}
->>>>>>> Stashed changes
